@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>larootattoo</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://use.typekit.net/eol2cph.css">
+
+
+</head>
+
+	
+<body>
+
+			
+			
+<div class="container">
+
+	
+<nav class="topnav">
+  <a class="#gallery" href="#gallerylogo">GALLERY</a> 
+  <a href="#aboutlogo">ABOUT</a>
+   <img class="logo" alt src="bilder/logo.png">
+  <a href="#contactlogo">CONTACT</a>
+  <a href="#studiologo">STUDIO</a>
+</nav>
+	
+<div class="slider">
+<img name="slide" width="100%" height="500px" img/>
+	
+	<script>
+	var i = 0; 			
+var images = [];	
+var time = 3000;	
+	 
+images[0] = "bilder/1.jpg";
+images[1] = "bilder/2.jpg";
+images[2] = "bilder/3.jpg";
+images[3] = "bilder/4.jpg";
+
+function changeImg(){
+	document.slide.src = images[i];
+
+	
+	if(i < images.length - 1){
+	
+	  i++; 
+	} else { 
+		
+		i = 0;
+	}
+
+	setTimeout("changeImg()", time);
+}
+
+
+window.onload=changeImg;
+	</script>
+	
+	</div>	
+<div class="arrowdown">
+	<img src="bilder/arrowdown.png" width="7%"> 
+</div>
+	 
+<div id="aboutlogo">
+	<img src="bilder/about.png">
+</div>
+	
+<div class="abouttext">
+	<p>
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</p>
+</div>
+	
+<div class="aboutpicture">
+	<img src="bilder/D1220_3_519_1200.jpg" width="60%">
+	</div>
+	
+	
+<div id="gallerylogo">
+	<img src="bilder/gallery.png">
+</div>
+	
+<section id="GALLERY">
+    <table>
+        <td><img class="img150" src="bilder/8b76ce2ca8d5f15d871c3cbe4931c65f.jpg" height="250"; width="250";></td>
+        <td><img class="img150" src="bilder/443ea11a793e4184aa4c5a1922e84021.jpg" height="250"; width="250";></td>
+        <td><img class="img150" src="bilder/a075807d0dda862af238b3cda32e4f14.jpg"height="250"; width="250";></td>
+        <td><img class="img150" src="bilder/beb7a0a3a305bf2867677b6d14c21ab7.jpg" height="250"; width="250";></td>
+      <tr></tr>
+      <td><img class="img150" src="bilder/d07d3b38cc6bf38b5d3da29ece421111.jpg" height="250"; width="250";></td>
+      <td><img class="img150" src="bilder/8b76ce2ca8d5f15d871c3cbe4931c65f.jpg" height="250"; width="250";></td>
+      <td><img class="img150" src="bilder/443ea11a793e4184aa4c5a1922e84021.jpg"bilder/B5.jpg"" height="250"; width="250";></td>
+      <td><img class="img150" src="bilder/a075807d0dda862af238b3cda32e4f14.jpg" height="250"; width="250";></td>
+    </table>
+  </section>
+	
+	
+<div id="studiologo">
+	<img src="bilder/studio.png">
+</div>
+
+	<div class="studiopicture">
+	<img src="bilder/studio.jpg" width="100%">
+	</div>
+
+		
+<div id="contactlogo">
+	<img src="bilder/contact.png">
+</div>
+	
+	<section id="CONTACT">
+
+    <table>
+    
+    <p><label>
+        NAME:<br>
+        <input type="Name"></td><br>
+    </label>
+
+    <label>
+      E-MAIL:<br>
+      <input type="Email"></td><br>
+    </label>
+    
+    <label>
+      PHONE NUMBER:<br>
+      <input type="Telefon"></td><br>
+    </label>    
+  </section>
+ MESSAGE:<br>
+      <textarea id="Message" rows="10" cols="40"></textarea><br>
+    </label></p>
+
+
+<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=zurich&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+<div class="bottomtext1">
+	<p>larootattoo<br>
+keiahnigwasstrasse 9<br>
+8001 zürich
+</p>
+</div>	
+
+<div class="bottomtext2">
+	<p>
+tel: +41441234567<br>
+e-mail: larootattoo@gmail.com<br>
+please use the contact form for bookings.
+</p>
+</div>	
+	
+<div class="bottomtext3">
+	<p> © larootattoo 2019      AGB
+</p>
+</div>	
+	
+</div>	
+</body>
+</html>
