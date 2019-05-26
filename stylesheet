@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.logo {
+	width: auto; 
+}
+
+.container {
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	
+}
+
+.slider{
+	padding-top: 8%;
+}
+
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  padding-left: 30%;
+  padding-right: 30%;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+	
+	-webkit-transition: color 0.3s;
+   -moz-transition: color 0.3s;
+     -o-transition: color 0.3s;
+        transition: color 0.3s;
+	font-family: 'bebas-neue', sans-serif;
+font-weight: 400;
+font-style: normal;
+	
+}
+
+
+.topnav a:hover {
+ color: grey;
+  
+}
+
+.arrowdown{
+width: 50%;
+	padding-top: 3%;
+	padding-left: 46%
+}
+
+#aboutlogo{
+	padding-top: 9%;
+	padding-left: 44%
+}
+
+.abouttext{
+	color: white;
+		font-family: 'bebas-neue', sans-serif;
+	padding-top: 4%;
+	padding-left: 15%;
+	padding-right: 56%;
+	text-align: justify
+}
+
+.aboutpicture{
+	margin-left: 53%;
+	margin-top: -28%;
+}
+
+#gallerylogo{
+	padding-top: 9%;
+	padding-left: 43%
+}
+
+#GALLERY{
+	padding-left: 15%;
+	padding-top: 5%
+}
+
+#studiologo{
+	padding-top: 9%;
+	padding-left: 43%
+}
+
+.studiopicture{
+	padding-top: 5%
+}
+
+#contactlogo{
+	padding-top: 9%;
+	padding-left: 43%
+}
+
+#CONTACT{
+	color: white;
+	font-family: "bebas-neue";
+	padding-top: 5%;
+	padding-left: 15%;
+}
+
+#gmap_canvas{
+	margin-top: -25%;
+	padding-left: 30%
+}
+
+.bottomtext1{
+	margin-top: -13%
+}
+
+.bottomtext3{
+	padding-top:9%
+}
